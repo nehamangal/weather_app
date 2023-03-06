@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Header{
+  img{
+    height: 450px;
+    width: 100%;
+  }
+
+}
+
+.Main_part{
+  text-align: center;
+  >form{
+    position: absolute;
+    top: 7rem;
+    left: 38rem;
+    >input{
+      width: 25rem;
+      height: 3rem;
+      border-radius: 1rem;
+      border: none;
+      font-size: 1rem;
+    }
+    >button{
+      margin-top: 0.3rem;
+      width: 25rem;
+      height: 3rem;
+      border-radius: 1rem;
+      border: none;
+      cursor: pointer;
+      font-size:1.3rem;
+      background-color: rgba(128, 128, 128, 0.695);
+      transition: all 0.5s;
+
+      &:hover{
+        background-color: grey;
+        transform: translateX(-9px) scale(0.9);
+        
+      }
+    }
+  }
+  
+}
+
+.datas{
+  height: 300px;
+  width: 370px;
+  background-color: white;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.682);
+  margin: 0.3rem 39rem;
+
+  h1{
+    text-align: center;
+  }
+}
+.datas:hover{
+  transition: all 0.5s;
+  transform: translateX(-10px) scale(1);
+  width: 380px;
+  height: 320px;
+  cursor: pointer;
+}
+
+.getdata{
+  position: absolute;
+    top: 37rem;
+    left:43rem;
+    h1{
+      text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+  .Header >img{
+    width: 100%;
+  }
+  .Main_part >form{
+      position: absolute;
+      top: 7rem;
+      left: 2rem;
+  }
+
+  .datas{
+    width: 300px;
+    margin: 0.3rem 5.1rem;
+  }
+  .datas:hover{
+    width: 310px;
+  }
+  .getdata{
+    position: absolute;
+    top: 36rem;
+    left: 0rem;
+    >h1{
+      text-align: center;
+    }
+    p{
+      padding: 1rem;
+      margin-left: 7rem;
+      margin-top: 0.2rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) and  (min-width: 600px) {
+  .Header >img{
+    width: 100%;
+  }
+  .Main_part >form{
+      position: absolute;
+      top: 7rem;
+      left: 13rem;
+  }
+
+  .datas{
+    width: 300px;
+    margin: 0.3rem 14rem;
+  }
+  .datas:hover{
+    width: 300px;
+  }
+  .getdata{
+    position: absolute;
+    top: 36rem;
+    left: 0rem;
+    >h1{
+      text-align: center;
+      margin-left: 15rem;
+    }
+    p{
+      padding: 1rem;
+      margin-left: 15rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+
+}
