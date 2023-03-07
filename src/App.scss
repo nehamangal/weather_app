@@ -85,7 +85,47 @@
 
 }
 
-@media (max-width: 590px) {
+@media (max-width:442px){
+  .Header >img{
+    width: 100%;
+  }
+  .Main_part >form{
+      position: absolute;
+      top: 7rem;
+      left: 2.7rem;
+      >input{
+        width: 18rem;
+      }
+      >button{
+        width: 18rem;
+      }
+  }
+
+  .datas{
+    width: 260px;
+    margin: 0.3rem 3.6rem;
+  }
+  .datas:hover{
+    width: 310px;
+  }
+  .getdata{
+    position: absolute;
+    top: 36rem;
+    left: 0rem;
+    >h1{
+      text-align: center;
+      margin-left: 5.2rem;
+    }
+    p{
+      padding: 0rem;
+      margin-left: 7rem;
+      margin-top: 0.8rem;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 590px) and (min-width:442px) {
   .Header >img{
     width: 100%;
   }
