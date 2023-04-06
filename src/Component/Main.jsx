@@ -3,13 +3,10 @@ import { useState } from "react"
 import Data from "./Datas";
 import axios from 'axios'
 import weather from '../weather.png'
-import { Country, State}  from 'country-state-city';
-// import {TiWeatherCloudy} from 'react-icons/ti'
-// import { useEffect } from "react";
+
 import img from '../cloud.jpg'
 const round = require('math-round');
-const arr=Country.getAllCountries();
-const arr2=State.getAllStates();
+
 
 
 const api_key = "139a7d420f1aefcfdf4e8788de932a75"
